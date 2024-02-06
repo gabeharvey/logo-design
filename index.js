@@ -65,7 +65,7 @@ function writeToFile (fileName, data) {
 // This function initializes the application
 async function init () {
     console.log('Initializing Application');
-    let svgString = '';
+    let svgFinalString = '';
     let svgFile = 'myCustomizedLogo.svg';
     
     const answers = await inquirer.prompt(questions);
@@ -75,11 +75,10 @@ async function init () {
         resChars = answers.chars;
     } else {
         console.log("Please re-enter number of characters as 1, 2, or 3 characters. Any other entries are invalid.")
-    }
     return;
-};
+    };
 
-console.log('[' + resChars + '] are the number of characters chosen!');
+console.log('[' + resChars + '] are the letters that will appear in custom logo!');
 
 // This sets resFontColor to the font color the user chooses
 resFontColor = answers['chars-color'];
@@ -102,7 +101,7 @@ if (resShapeType == 'Circle') {
     finalShape = new Triangle ();
     console.log('Triangle was chosen!');
 } else if (resShapeType == 'Square') {
-    finalShape == new Square ();
+    finalShape = new Square ();
     console.log('Square was chosen!');
 } else {
     console.log('Shape is not valid!');
@@ -110,5 +109,18 @@ if (resShapeType == 'Circle') {
 
 // This sets finalShape to background color selected by user
 finalShape.setColor(resShapeColor);
+
+let svg = new Svg();
+svg.setTextElement(resChars, resFontColor);
+svg.setShapeElement(finalShape);
+svgFinalString = svg.render();
+
+console.log(svgFinalString + 'is being displayed');
+
+console.log('Your customized logo is now complete!');
+console.log('Creating file for your personalized logo...');
+writeToFile(svgFile, svgFinalString);
+
+};
 
 init ();

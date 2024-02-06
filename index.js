@@ -108,4 +108,7 @@ if (resShapeType == 'Circle') {
     console.log('Shape is not valid!');
 }
 
+// This sets finalShape to background color selected by user
+finalShape.setColor(resShapeColor);
+
 init ();

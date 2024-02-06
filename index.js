@@ -1,5 +1,6 @@
 // Packages required for this application
 const inquirer = require("inquirer");
+const filesystem = require("graceful-fs");
 
 // Questions presented to user, user can specify desired aspects of logo
 const questions = [
@@ -29,9 +30,30 @@ const questions = [
     },
 ];
 
+// This class represents a Scalable Vector Graphics element
+class Svg {
+    // Sets textElement and shapeElement to empty strings
+    constructor () {
+        this.textElement = '';
+        this.shapeElement = '';
+    }
+    // This method returns a Scalable Vector Graphics element with a specified shape and text
+    render () {
+        return `<svg version="1.1" xlmns="http://www.w3.org/2000/svg" width="300" height="200">${this.shapeElement}${this.textElement}</svg>`;
+    }
+    // This method sets the textElement with a specific color and text
+    setTextElement (text,color) {
+        this.textElement = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`;
+    }
+    // This method sets the shapeElement
+    setShapeElement (shape) {
+        this.shapeElement = shape.render();
+    };
+};
+
 // This function writes the information generated to a separate file
 function writeToFile (fileName, data) {
-    filesystem.writeFile (fileName, data, function (err ) {
+    filesystem.writeFile (fileName, data, function (err) {
         if (err) {
             return console.log(err);
         }

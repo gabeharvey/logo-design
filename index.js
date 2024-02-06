@@ -1,6 +1,7 @@
 // Packages required for this application
 const inquirer = require("inquirer");
 const filesystem = require("graceful-fs");
+const { Circle, Triangle, Square } = require("./lib/shapes")
 
 // Questions presented to user, user can specify desired aspects of logo
 const questions = [

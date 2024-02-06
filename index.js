@@ -93,6 +93,19 @@ console.log('[' + resShapeColor + '] is the background color chosen!');
 resShapeType = answers['logo-shape'];
 console.log('[' + resShapeType + '] is the shape chosen!');
 
-
+// This sets finalShape to user preference
+let finalShape;
+if (resShapeType == 'Circle') {
+    finalShape = new Circle ();
+    console.log('Circle was chosen!');
+} else if (resShapeType == 'Triangle') {
+    finalShape = new Triangle ();
+    console.log('Triangle was chosen!');
+} else if (resShapeType == 'Square') {
+    finalShape == new Square ();
+    console.log('Square was chosen!');
+} else {
+    console.log('Shape is not valid!');
+}
 
 init ();

@@ -60,3 +60,20 @@ function writeToFile (fileName, data) {
         console.log("Your Logo is Complete!")
     });
 };
+
+// This function initializes the application
+async function init () {
+    console.log('Initializing Application');
+    let svgString = '';
+    let svgFile = 'myCustomizedLogo.svg';
+    
+    const answers = await inquirer.prompt(questions);
+
+    let resChars = '';
+    if (answers.chars.length > 0 && answers.chars.length < 4) {
+        resChars = answers.chars;
+    } else {
+        console.log("Please re-enter number of characters as 1, 2, or 3 characters. Any other entries are invalid.")
+    }
+    return;
+};

@@ -28,3 +28,13 @@ const questions = [
         choices: ["Circle", "Triangle", "Square"],
     },
 ];
+
+// This function writes the information generated to a separate file
+function writeToFile (fileName, data) {
+    filesystem.writeFile (fileName, data, function (err ) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Your Logo is Complete!")
+    });
+};

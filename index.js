@@ -77,3 +77,14 @@ async function init () {
     }
     return;
 };
+
+console.log('[' + resChars + '] are the number of characters chosen!');
+
+resFontColor = answers['chars-color'];
+console.log('[' + resFontColor + '] is the font color chosen!');
+
+resShapeColor = answers.shape;
+console.log('[' + resShapeColor + '] is the background color chosen!');
+
+resShapeType = answers['logo-shape'];
+console.log('[' + resShapeType + '] is the shape chosen!');

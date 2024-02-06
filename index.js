@@ -79,15 +79,20 @@ async function init () {
     return;
 };
 
-// console.log('[' + resChars + '] are the number of characters chosen!');
+console.log('[' + resChars + '] are the number of characters chosen!');
 
-// resFontColor = answers['chars-color'];
-// console.log('[' + resFontColor + '] is the font color chosen!');
+// This sets resFontColor to the font color the user chooses
+resFontColor = answers['chars-color'];
+console.log('[' + resFontColor + '] is the font color chosen!');
 
-// resShapeColor = answers.shape;
-// console.log('[' + resShapeColor + '] is the background color chosen!');
+// This sets resShapeColor to the background color the user chooses
+resShapeColor = answers['shape-color'];
+console.log('[' + resShapeColor + '] is the background color chosen!');
 
-// resShapeType = answers['logo-shape'];
-// console.log('[' + resShapeType + '] is the shape chosen!');
+// This sets resShapeType to the logo shape type the user chooses
+resShapeType = answers['logo-shape'];
+console.log('[' + resShapeType + '] is the shape chosen!');
+
+
 
 init ();

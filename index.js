@@ -58,7 +58,7 @@ function writeToFile (fileName, data) {
         if (err) {
             return console.log(err);
         }
-        console.log("Your Logo is Complete!")
+        console.log("Generated logo.svg")
     });
 };
 
@@ -66,7 +66,7 @@ function writeToFile (fileName, data) {
 async function init () {
     console.log('Initializing Application');
     let svgFinalString = '';
-    let svgFile = 'myCustomizedLogo.svg';
+    let svgFile = 'logo.svg';
     
     const answers = await inquirer.prompt(questions);
 

@@ -2,14 +2,14 @@
 
 ## Table of Contents
 
-*[Description](#description)
-*[Installation](#installation)
-*[Usage](#usage)
-*[Credits](#credits)
-*[Screenshots](#screenshots)
-*[Video](#video)
-*[Link to Website](#link-to-website)
-*[License](#license)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Screenshots](#screenshots)
+* [Video](#video)
+* [Link to Website](#link-to-website)
+* [License](#license)
 
 
 ## Description

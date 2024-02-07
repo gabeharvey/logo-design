@@ -32,12 +32,15 @@ Jest Test Screenshot:
 ![Alt text](./images-for-readme/jest-test.png)
 
 Example Image #1 using this application with triangle shape and hexadecimal form:
+
 ![Alt text](./examples/HOT-triangle-using-hexadecimal.svg)
 
 Example Image #2 using this application with square shape:
+
 ![Alt text](./examples/AVE-square.svg)
 
 Example Image #3 using this application with circle shape:
+
 ![Alt text](./examples/ICY-circle.svg)
 
 ## Video

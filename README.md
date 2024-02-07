@@ -8,7 +8,7 @@
 *[Credits](#credits)
 *[Screenshots](#screenshots)
 *[Video](#video)
-*[Link to Website](#link)
+*[Link to Website](#link-to-website)
 *[License](#license)
 
 

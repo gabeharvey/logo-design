@@ -7,21 +7,18 @@ const { Circle, Triangle, Square } = require("./lib/shapes")
 const questions = [
     {
         type: "input",
-        message: "What characters would you like to appear on your customized logo? Please select up to 3 characters.",
+        message: "What characters would you like to appear on your customized logo? Please select up to 3 characters. Example ABC:",
         name: "chars",
-        default: "ABC"
     },
     {
         type: "input",
-        message: "What color would you like the characters to appear on your customized logo? Please enter a color or hexadecimal number.",
+        message: "What color would you like the characters to appear on your customized logo? Please enter a color or hexadecimal number. Example Red or #ff0000:",
         name: "chars-color",
-        default: "Red or #ff0000"
     },
     {
         type: "input",
-        message: "What color would you like for your background on your customized logo? Please enter a color or hexadecimal number.",
+        message: "What color would you like for your background on your customized logo? Please enter a color or hexadecimal number. Example Yellow or #ffff00:",
         name: "shape-color",
-        default: "Yellow or #ffff00"
     },
     {
         type: "checkbox",
@@ -90,19 +87,18 @@ console.log('[' + resShapeColor + '] is the background color chosen!');
 
 // This sets resShapeType to the logo shape type the user chooses
 resShapeType = answers['logo-shape'];
-console.log('[' + resShapeType + '] is the shape chosen!');
 
 // This sets finalShape to user preference
 let finalShape;
 if (resShapeType == 'Circle') {
     finalShape = new Circle ();
-    console.log('Circle was chosen!');
+    console.log('Circle is the shape chosen!');
 } else if (resShapeType == 'Triangle') {
     finalShape = new Triangle ();
-    console.log('Triangle was chosen!');
+    console.log('Triangle is the shape chosen!');
 } else if (resShapeType == 'Square') {
     finalShape = new Square ();
-    console.log('Square was chosen!');
+    console.log('Square is the shape chosen!');
 } else {
     console.log('Shape is not valid!');
 }

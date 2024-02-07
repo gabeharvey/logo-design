@@ -50,6 +50,12 @@ Example Image #3 using this application with circle shape:
 
 ## Video
 
+https://drive.google.com/file/d/1YktuIECgUMWQwANl3YOi1SZN3IVpUcMO/view
+
 ## Link to Website
 
+N/A
+
 ## License
+
+N/A

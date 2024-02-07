@@ -28,7 +28,17 @@ The user will answer a series of questions in order to generate a customized log
 
 ## Screenshots
 
+Jest Test Screenshot:
 ![Alt text](./images/jest-test.png)
+
+Example Image #1 using this application with triangle shape:
+![Alt text](./examples/BRB.svg)
+
+Example Image #2 using this application with square shape and hexadecimal entries:
+![Alt text](./examples/JK-using-hexadecimal.svg)
+
+Example Image #3 using this application with circle shape:
+![Alt text](./examples/LMK.svg)
 
 ## Video
 

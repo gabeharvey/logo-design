@@ -28,7 +28,12 @@ The user will answer a series of questions in order to generate a customized log
 
 ## Screenshots
 
+Application Main Screen:
+
+![Alt text](./images-for-readme/application-screen.png)
+
 Jest Test Screenshot:
+
 ![Alt text](./images-for-readme/jest-test.png)
 
 Example Image #1 using this application with triangle shape and hexadecimal form:

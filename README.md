@@ -29,7 +29,7 @@ The user will answer a series of questions in order to generate a customized log
 ## Screenshots
 
 Jest Test Screenshot:
-![Alt text](./images/jest-test.png)
+![Alt text](./images-for-readme/jest-test.png)
 
 Example Image #1 using this application with triangle shape:
 ![Alt text](./images-for-readme/BRB-screen.png)

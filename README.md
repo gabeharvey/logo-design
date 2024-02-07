@@ -1,5 +1,17 @@
 # Logo Design
 
+## Table of Contents
+
+*[Description](#description)
+*[Installation](#installation)
+*[Usage](#usage)
+*[Credits](#credits)
+*[Screenshots](#screenshots)
+*[Video](#video)
+*[Link to Website](#link)
+*[License](#license)
+
+
 ## Description
 
 Logo Design is a Node.js application that allows a user generate a customized logo and save the logo as a Scalable Vector Graphics file.

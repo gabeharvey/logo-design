@@ -7,7 +7,7 @@ const { Circle, Triangle, Square } = require("./lib/shapes")
 const questions = [
     {
         type: "input",
-        message: "What characters would you like to appear on your customized logo? Please select up to 3 characters. Example ABC:",
+        message: "What letters would you like to appear on your customized logo? Please enter 1 to 3 letters. Example A, AB, or ABC:",
         name: "chars",
     },
     {

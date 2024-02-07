@@ -31,14 +31,14 @@ The user will answer a series of questions in order to generate a customized log
 Jest Test Screenshot:
 ![Alt text](./images-for-readme/jest-test.png)
 
-Example Image #1 using this application with triangle shape:
-![Alt text](./images-for-readme/BRB-screen.png)
+Example Image #1 using this application with triangle shape and hexadecimal form:
+![Alt text](./examples/HOT-triangle-using-hexadecimal.svg)
 
-Example Image #2 using this application with square shape and hexadecimal entries:
-![Alt text](./images-for-readme/JK-using-hexadecimal-screen.png)
+Example Image #2 using this application with square shape:
+![Alt text](./examples/AVE-square.svg)
 
 Example Image #3 using this application with circle shape:
-![Alt text](./images-for-readme/LMK-screen.png)
+![Alt text](./examples/ICY-circle.svg)
 
 ## Video
 

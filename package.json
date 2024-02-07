@@ -8,7 +8,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "jest"
+    "start": "jest",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,8 @@
   "dependencies": {
     "graceful-fs": "^4.2.11",
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

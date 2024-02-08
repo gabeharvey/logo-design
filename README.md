@@ -11,6 +11,7 @@
 * [Link to Website](#link-to-website)
 * [License](#license)
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
 
 ## Description
 
@@ -25,6 +26,12 @@ This application is run using Node.js. The user must install Node.js in order to
 The user will answer a series of questions in order to generate a customized logo according to their preferences. The user will select what characters they want in their logo within a range of 1 to 3 characters. The user will select their color preferences for letters and background. The user will select shape preference for logo with Circle, Triangle, and Square being the available options. Once all questions are answered, this application will generate a customized logo to meet user preferences and save the logo as a logo.svg file.
 
 ## Credits
+
+Tutor Guidance provided by Alexis San Juan.
+
+Application done in collaboration with coding students Kalyn Sifuentes, Joshua Hale, and Angela Cortes.
+
+YouTube Video accessed for function guidance: https://www.youtube.com/watch?v=GJYMcLus3v0 by Thoscalle
 
 ## Screenshots
 
@@ -58,4 +65,8 @@ N/A
 
 ## License
 
-N/A
+This application is licensed under the Apache 2.0 License.
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
+
+(https://opensource.org/licenses/Apache-2.0)
